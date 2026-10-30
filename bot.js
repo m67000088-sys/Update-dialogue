@@ -23,8 +23,7 @@ const crypto = require('crypto')
 // ======================= CONFIG =======================
 const PORT = parseInt(process.env.PORT || '3000', 10)
 const DATA_FILE = path.join(__dirname, 'kmj-data.json')
-const DEFAULT_PASSWORD = 'Mishra.ji 
-
+const DEFAULT_PASSWORD = 'Mishra.ji';
 // ======================= STORAGE (JSON file) =======================
 let db = null
 
